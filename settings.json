@@ -1,0 +1,79 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 20,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.colorDecorators": false,
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.formatOnSave": true,
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontSize": 14,
+  "git.ignoreMissingGitWarning": true,
+
+  "eslint.validate": ["javascript", "typescript", "html"],
+  "explorer.confirmDragAndDrop": false,
+  "files.exclude": {
+    "**/*.tns.css": true,
+    "**/*.tns.html": true,
+    "**/*.tns.ts": true
+  },
+  "editor.linkedEditing": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "editor.parameterHints.enabled": false,
+  "breadcrumbs.enabled": true,
+  "javascript.suggest.autoImports": false,
+  "eslint.codeActionsOnSave.mode": "all",
+  "explorer.compactFolders": false,
+  "html.format.contentUnformatted": "pre,code,textarea",
+  "html.format.endWithNewline": false,
+  "html.format.extraLiners": "",
+  "html.format.indentHandlebars": false,
+  "html.format.indentInnerHtml": false,
+  "html.format.maxPreserveNewLines": 1,
+  "html.format.preserveNewLines": true,
+  "html.format.wrapAttributes": "auto",
+  "explorer.confirmDelete": false,
+  "git.autofetch": false,
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions.ignoreRecommendations": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "tag-create:command"
+  ],
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
