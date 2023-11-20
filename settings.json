@@ -9,7 +9,6 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.colorDecorators": false,
-  "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "left",
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.formatOnSave": true,
@@ -75,5 +74,6 @@
     "tag-create:command"
   ],
   "security.workspace.trust.untrustedFiles": "open",
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "git.ignoreRebaseWarning": true
 }
